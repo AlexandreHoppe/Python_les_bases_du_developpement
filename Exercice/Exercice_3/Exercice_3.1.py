@@ -25,8 +25,6 @@ match typeCafe.lower() :
         typeModificateur = 1.5  
     case "americano" :
         typeModificateur = 1
-    case "irish coffee" :
-        typeModificateur = 3
     case "cappuccino" :
         typeModificateur = 2
     case _ :
@@ -38,8 +36,6 @@ match extrasCafe.lower() :
         extrasModificateur = .4
     case "lait" :
         extrasModificateur = .5
-    case "whiskey" :
-        extrasModificateur = 1
     case _ :
         extrasModificateur = 0
         print("Extras non present.")
