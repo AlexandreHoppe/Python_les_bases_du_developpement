@@ -1,24 +1,29 @@
+# Python : les bases du développement
+
+## Interaction avec la console
 Demandez à l'utilisateur son prénom et son nom, puis affichez-les avec un séparateur personnalisé. 
 
 [Exercice1.1](exercice/Exercice_1/Exercice_1.1.py)
- <br> <br>
+<br> <br>
 Affichez un message sur plusieurs lignes avec une fin de ligne personnalisée pour chaque ligne.
 
 [Exercice1.2](/Exercice/Exercice_1/Exercice_1.2.py)
- <br> <br>
+<br> <br>
 Demandez à l'utilisateur deux mots et affichez-les sur la même ligne, sans espace entre eux.
 
 [Exercice1.3](/Exercice/Exercice_1/Exercice_1.3.py)
- <br> <br>
+<br> <br>
 Demandez à l'utilisateur deux nombres et affichez leur somme avec une fin de ligne personnalisée.
 
 [Exercice1.4](/Exercice/Exercice_1/Exercice_1.4.py)
- <br> <br>
+<br> <br>
 Affichez trois valeurs avec un séparateur personnalisé et une fin de ligne personnalisée.
 
 [Exercice1.5](/Exercice/Exercice_1/Exercice_1.5.py) 
+<br> <br> <br> <br>
 
- <br> <br>
+
+## Opérateurs
 
 Devinez les résultats des calculs sur les valeurs des variables A, B, C, D, E, F et G à partir des expressions suivantes :
 1. A = 12
@@ -32,16 +37,70 @@ Devinez les résultats des calculs sur les valeurs des variables A, B, C, D, E, 
 [Exercice2.1](exercice/Exercice_2/Exercice_2.1.py)
 
 Considérons : A = 13 / B = 5 / C = True / D = not(C). Donnez le résultat pour chacune de ces instructions :
-▪ A > 10) and (B < 20)
-▪ (A == 2) and (not (B > 15))
-▪ (C > 50) or (not (D < 200))
-▪ ((A < B) and (C > 30)) or (D == 270)
-▪ not ((A * B) > 100)
-▪ ((B == 15) or ((C > 60) and (A < 5)))
-▪ (((B == 15) or ((C > 60) and (A < 5))) and (A < B)) or (not (B == 9))
-▪ (C != 40) or (D >= 100)
+1. A > 10) and (B < 20)
+2. (A == 2) and (not (B > 15))
+3. (C > 50) or (not (D < 200))
+4. ((A < B) and (C > 30)) or (D == 270)
+5. not ((A * B) > 100)
+6. ((B == 15) or ((C > 60) and (A < 5)))
+7. (((B == 15) or ((C > 60) and (A < 5))) and (A < B)) or (not (B == 9))
+8. (C != 40) or (D >= 100) 
 
 [Exercice2.2](exercice/Exercice_2/Exercice_2.2.py)
-
+<br><br><br><br>
+## Structures Conditionnelles
 Créez un programme qui gère les commandes de café en fonction des différentes options telles que la taille, le type de café, les extras, etc. Utilisez des correspondances pour traiter chaque option et calculer le prix total de la commande.
+
 [Exercice3.1](exercice/Exercice_3/Exercice_3.1.py)
+
+Créez un programme qui convertit une note numérique en une note alphabétique en utilisant une échelle de notation
+standard. Utilisez des correspondances pour déterminer la note alphabétique correspondante en fonction de la note
+numérique.
+
+[Exercice3.2](exercice/Exercice_3/Exercice_3.2.py)
+<br><br>
+Créez un programme qui génère un nombre aléatoire (import random) et permet à l'utilisateur de deviner ce nombre. Utilisez des correspondances pour comparer la devinette de l'utilisateur avec le nombre généré et fournir des indices.
+
+[Exercice3.3](exercice/Exercice_3/Exercice_3.3.py)
+<br><br>
+Créez un programme qui calcule l'indice de masse corporelle (IMC) d'une personne en fonction de son poids et de sa taille. Utilisez des correspondances pour interpréter et catégoriser l'IMC résultant en différentes catégories de poids.
+
+[Exercice3.4](exercice/Exercice_3/Exercice_3.4.py)
+<br><br>
+Créez un programme qui permet à l'utilisateur de choisir un menu pour chaque repas (petit-déjeuner, déjeuner, dîner) parmi des options préétablies. Après la sélection, il affiche les choix de l'utilisateur pour chaque repas et résume
+l'ensemble des repas de la journée.
+
+[Exercice3.5](exercice/Exercice_3/Exercice_3.5.py)
+<br><br>
+Créez un programme qui génère des citations aléatoires à partir d'un nombre aléatoire. L'utilisateur devrait pouvoir choisir un thème et le programme générera une citation aléatoire correspondante. Utilisez des correspondances pour gérer les différents thèmes et générer les citations appropriées.
+
+[Exercice3.6](exercice/Exercice_3/Exercice_3.6.py)
+
+<br><br><br><br>
+## Structures Itératives
+Concevez un programme qui génère et affiche les nombres premiers jusqu'à 100 en utilisant une boucle.
+[Exercice4.1](/Exercice/Exercice_4/Exercice_4.1.py)
+<br><br>
+Créez un programme qui demande à l'utilisateur d'entrer son âge. Utilisez unopérateur ternaire pour vérifier si l'utilisateur est majeur ou mineur.Affichez ensuite un message approprié en fonction de la réponse.
+
+[Exercice4.2](/Exercice/Exercice_4/Exercice_4.2.py)
+<br><br>
+Jeu de devinette de nombre amélioré : Écrivez un jeu interactif où l'ordinateur génère un nombre aléatoire entre 1 et 100, et l'utilisateur doit deviner ce nombre. Utilisez une boucle pour permettre à l'utilisateur de faire plusieurs tentatives. Après chaque tentative, demandez à l'utilisateur s'il souhaite continuer à jouer. Répétez le processus jusqu'à ce qu'il décide de ne plus jouer. Enfin, affichez le nombre de tentatives utilisées pour deviner le nombre.
+
+[Exercice4.3](/Exercice/Exercice_4/Exercice_4.3.py)
+<br><br>
+Écrivez un programme qui demande à l'utilisateur d'entrer un mot. Utilisez une boucle pour afficher chaque caractère du mot un par un jusqu'à la fin du mot.
+
+[Exercice4.4](/Exercice/Exercice_4/Exercice_4.4.py)
+<br><br>
+Gestionnaire de commandes de café amélioré :Écrivez un programme interactif qui prend les commandes de café en fonction des options telles que la taille, le type de café et les extras. Utilisez une boucle pour permettre à l'utilisateur de passer plusieurs commandes et affichez le prix total à la fin de chaque commande. Demandez ensuite à l'utilisateur s'il souhaite passer une autre commande et répétez le processus jusqu'à ce qu'il n'en ait plus envie.
+
+[Exercice4.5](/Exercice/Exercice_4/Exercice_4.5.py)
+<br><br>
+Écrivez un programme qui demande à l'utilisateur d'entrer un mot. Utilisez une boucle pour inverser l'ordre des lettres du mot et affichez le mot inversé à la fin.
+
+[Exercice4.6](/Exercice/Exercice_4/Exercice_4.6.py)
+<br><br>
+Gestion des repas du jour améliorée : Développez un programme interactif qui permet à l'utilisateur de choisir un menu pour chaque repas de la journée parmi des options prédéfinies. Utilisez une boucle pour faciliter la saisie des choix pour chaque repas et affichez un résumé des choix de repas à la fin. Demandez ensuite à l'utilisateur s'il souhaite choisir les repas pour un autre jour. Répétez le processus jusqu'à ce qu'il décide de ne plus choisir de repas.
+
+[Exercice4.7](/Exercice/Exercice_4/Exercice_4.7.py)
