@@ -111,24 +111,77 @@ Gestion des repas du jour améliorée : Développez un programme interactif qui 
 
 Commencez par créer une liste de 10 nombres aléatoires compris entre 1 et 100. Ensuite, affichez cette liste générée. Après cela, calculez la somme de tous les éléments de la liste et affichez-la.
 
-
+[Exercice5.1](/Exercice/Exercice_5/Exercice_5.1.py)
 <br><br>
 
 Invitez l'utilisateur à saisir son prénom et son nom. Ensuite, créez un tuple contenant ces informations. Pour finir, affichez séparément le prénom et le nom à partir du tuple.
 
+[Exercice5.2](/Exercice/Exercice_5/Exercice_5.2.py)
+<br><br>
 Générez deux ensembles de nombres aléatoires compris entre 1 et 20. Affichez ces deux ensembles générés. Enfin, trouvez l'intersection des deux ensembles et affichez-la.
 
+[Exercice5.3](/Exercice/Exercice_5/Exercice_5.3.py)
+<br><br>
 Créez un dictionnaire contenant les prix de quelques fruits tels que la pomme, la banane et l'orange. Demandez à l'utilisateur de saisir le nom d'un fruit, puis affichez le prix correspondant à ce fruit s'il existe dans le dictionnaire.
 
+[Exercice5.4](/Exercice/Exercice_5/Exercice_5.4.py)
+<br><br>
 Créez une liste de tuples contenant le nom et l'âge de trois personnes. Trouvez ensuite la personne la plus âgée et affichez son nom.
 
+[Exercice5.5](/Exercice/Exercice_5/Exercice_5.5.py)
+<br><br>
 Générez une liste de 10 nombres aléatoires compris entre 1 et 50. Affichez cette liste générée. Ensuite, filtrez les nombres pairs de la liste et créez une nouvelle liste ne contenant que ces nombres pairs. Enfin, affichez la nouvelle liste contenant uniquement les nombres pairs.
 
+[Exercice5.6](/Exercice/Exercice_5/Exercice_5.6.py)
+<br><br>
 Créez une liste de mots contenant des doublons. Transformez ensuite cette liste en un ensemble pour éliminer les doublons. Affichez l'ensemble résultant.
 
+[Exercice5.7](/Exercice/Exercice_5/Exercice_5.7.py)
+<br><br>
 Créez un dictionnaire de listes représentant différents cours et les étudiants inscrits dans chaque cours. Ajoutez des étudiants à chaque cours. Ensuite, demandez à l'utilisateur de saisir le nom d'un cours et affichez la liste des étudiants inscrits à ce cours.
 
+[Exercice5.8](/Exercice/Exercice_5/Exercice_5.8.py)
+<br><br>
 Créez une liste de tuples représentant les commandes d'achat avec les produits et les quantités. Ensuite, créez un dictionnaire de prix pour chaque produit. Calculez ensuite le coût total de toutes les commandes et affichez-le.
 
-
+[Exercice5.9](/Exercice/Exercice_5/Exercice_5.9.py)
+<br><br>
 Créez une liste de dictionnaires représentant les informations des employés avec leur nom, salaire et département. Calculez la somme des salaires pour chaque département, puis calculez la moyenne des salaires pour chaque département. Enfin, affichez les moyennes des salaires pour chaque département.
+
+[Exercice5.10](/Exercice/Exercice_5/Exercice_5.10.py)
+
+<br><br><br><br>
+## Fonctions & procédures
+
+Écrivez une fonction nommée calcul_moyenne() qui prend une liste de notes en entrée et retourne la moyenne de ces notes.
+
+[Exercice6.1](/Exercice/Exercice_6/Exercice_6.1.py)
+<br><br>
+Implémentez une fonction appelée recherche_min() qui prend une liste de nombres en entrée et retourne le plus petit de ces nombres.
+
+[Exercice6.2](/Exercice/Exercice_6/Exercice_6.2.py)
+<br><br>
+Créez une fonction generer_email() qui prend un prénom et un nom en entrée, et retourne une adresse e-mail correspondante avec un domaine prédéfini.
+
+[Exercice6.3](/Exercice/Exercice_6/Exercice_6.3.py)
+<br><br>
+Écrivez une fonction compte_mots() qui prend une chaîne de caractères représentant une phrase en entrée et retourne le nombre de mots dans cette phrase.
+
+[Exercice6.4](/Exercice/Exercice_6/Exercice_6.4.py)
+<br><br>
+Écrivez une fonction convertir_temperature() qui prend une température en degrés Celsius et la convertit en degrés Fahrenheit.
+
+[Exercice6.5](/Exercice/Exercice_6/Exercice_6.5.py)
+<br><br>
+Créez une fonction nombres_pairs_impairs() qui prend une liste de nombres en entrée et retourne deux listes distinctes, l'une contenant les nombres pairs et l'autre les nombres impairs.
+
+[Exercice6.6](/Exercice/Exercice_6/Exercice_6.6.py)
+<br><br>
+Implémentez une fonction inverser_chaine() qui prend une chaîne de caractères en entrée et retourne cette chaîne inversée.
+
+[Exercice6.7](/Exercice/Exercice_6/Exercice_6.7.py)
+<br><br>
+Créez une fonction valider_mot_de_passe() qui prend un mot de passe en entrée et vérifie s'il répond à certains critères de complexité (longueur minimale, présence de chiffres, de lettres majuscules et minuscules, de caractères spéciaux, etc.). La fonction devrait renvoyer True si le mot de passe est valide et False sinon.
+
+[Exercice6.8](/Exercice/Exercice_6/Exercice_6.8.py)
+<br><br>
